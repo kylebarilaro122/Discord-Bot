@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "functions/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "DISCORD_TOKEN": "your-bot-token"
+  }
+}
