@@ -1,14 +1,16 @@
 {
-  "name": "discord-bot",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "discord.js": "^14.0.0"
-  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.11",
+    "discord.js": "^14.18.0"
+  }
 }
